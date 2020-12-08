@@ -10,7 +10,9 @@
 
 # simplesbml
 
-Thank you for downloading SimpleSBML!  This package supports easy SBML model construction and editing.
+Forked version of SimpleSBML that features getReaction(reaction ID).
+
+For all the other code...
 
 The documentation can be found at: http://simplesbml.readthedocs.io/en/latest/
 
@@ -24,7 +26,7 @@ The current version is 2.0.0. Compared to 1.2.x series, this adds 'get' function
 
 # How to install SimpleSBML
 
-SimpleSBML can be installed via pip:
+SimpleSBML (this version) can be installed downloading the :
 
 ```
 pip install simplesbml
