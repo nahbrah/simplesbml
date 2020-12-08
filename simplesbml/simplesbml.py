@@ -779,7 +779,7 @@ class SbmlModel(object):
            return p.getNumReactants()
         raise Exception ('Reaction does not exist')  
 
-    def getRaction(self, Id):
+    def getReaction(self, Id):
         """
         Returns the reaction based on the id
         """
