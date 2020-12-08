@@ -26,10 +26,10 @@ The current version is 2.0.0. Compared to 1.2.x series, this adds 'get' function
 
 # How to install SimpleSBML
 
-SimpleSBML (this version) can be installed downloading the :
+SimpleSBML (this version) can be installed downloading the git files, cding into the master directory, and running:
 
 ```
-pip install simplesbml
+python setup.py develop
 ```
 # Python version support
 
