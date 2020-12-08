@@ -778,7 +778,16 @@ class SbmlModel(object):
         if p != None:
            return p.getNumReactants()
         raise Exception ('Reaction does not exist')  
-        
+
+    def getRaction(self, Id):
+        """
+        Returns the reaction based on the id
+        """
+        p = self.model.getReaction(Id)
+        if p != None:
+            return p
+        raise Exception('Reaction does not exist')
+
     def getNumProducts (self, Id):
         """
         Returns the number of products in the reaction given by the Id argument.
